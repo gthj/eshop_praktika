@@ -28,14 +28,20 @@ services:
       MARIADB_DATABASE: ${DB_NAME}
       MARIADB_USER: ${DB_USER}
       MARIADB_PASSWORD: ${DB_PASSWORD}
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      start_period: 10s
+      interval: 10s
+      timeout: 5s
+      retries: 3
     restart: unless-stopped
 
   wpcli:
     image: wordpress:cli
     user: '33'
     depends_on:
-      - db
-      - wp
+      db:
+        condition: service_healthy
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: ${DB_USER}
@@ -47,12 +53,11 @@ services:
       - ./themes:/var/www/html/wp-content/themes:Z
       - ./uploads:/var/www/html/wp-content/uploads:Z
     command: >
-      /bin/sh -c '
-      sleep 10;
-      wp core install --path="/var/www/html" --url="http://localhost:8080" --title="Local Wordpress By Podman" --admin_user=admin --admin_password=admin191 --admin_email=demoadmin@bar.com;
+      /bin/bash -c "
+      wp core install --path=/var/www/html --url=http://localhost:8080 --title=\"Local Wordpress By Podman\" \
+        --admin_user=${WP_ADMIN_USER} --admin_password=${WP_ADMIN_PASSWORD} --admin_email=${WP_ADMIN_EMAIL};
       wp plugin install woocommerce --activate;
-      wp theme install blocksy --activate;
-      '
+      wp theme install blocksy --activate; "
 
 volumes:
   shop_db: {}
