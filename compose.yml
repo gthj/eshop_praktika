@@ -1,0 +1,52 @@
+version: "3.8"
+
+services:
+  wp:
+    image: wordpress:latest
+    depends_on:
+      - db
+    ports:
+      - "8080:80"
+    volumes:
+      - wp_files:/var/www/html:Z
+      - ./plugins:/var/www/html/wp-content/plugins:Z
+      - ./themes:/var/www/html/wp-content/themes:Z
+      - ./uploads:/var/www/html/wp-content/uploads:Z
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${DB_NAME}
+    restart: unless-stopped
+
+  db:
+    image: mariadb:latest
+    volumes:
+      - shop_db:/var/lib/mysql:Z
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MARIADB_DATABASE: ${DB_NAME}
+      MARIADB_USER: ${DB_USER}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+    restart: unless-stopped
+
+  wpcli:
+    image: wordpress:cli
+    depends_on:
+      - db
+      - wp
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${DB_NAME}
+    volumes:
+      - wp_files:/var/www/html:Z
+      - ./plugins:/var/www/html/wp-content/plugins:Z
+      - ./themes:/var/www/html/wp-content/themes:Z
+      - ./uploads:/var/www/html/wp-content/uploads:Z
+    entrypoint: ["wp", "--path=/var/www/html", "--allow-root"]
+
+volumes:
+  shop_db: {}
+  wp_files: {}
