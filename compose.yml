@@ -9,9 +9,9 @@ services:
       - "8080:80"
     volumes:
       - wp_files:/var/www/html
-      - ./plugins:/var/www/html/wp-content/plugins:Z
-      - ./themes:/var/www/html/wp-content/themes:Z
-      - ./uploads:/var/www/html/wp-content/uploads:Z
+      - ./plugins:/var/www/html/wp-content/plugins:z
+      - ./themes:/var/www/html/wp-content/themes:z
+      - ./uploads:/var/www/html/wp-content/uploads:z
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: ${DB_USER}
@@ -49,9 +49,9 @@ services:
       WORDPRESS_DB_NAME: ${DB_NAME}
     volumes:
       - wp_files:/var/www/html
-      - ./plugins:/var/www/html/wp-content/plugins:Z
-      - ./themes:/var/www/html/wp-content/themes:Z
-      - ./uploads:/var/www/html/wp-content/uploads:Z
+      - ./plugins:/var/www/html/wp-content/plugins:z
+      - ./themes:/var/www/html/wp-content/themes:z
+      - ./uploads:/var/www/html/wp-content/uploads:z
     command: >
       /bin/sh -c "
       wp core install --path=/var/www/html --url=http://localhost:8080 --title=\"Local Wordpress By Podman\" \
