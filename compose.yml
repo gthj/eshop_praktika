@@ -30,8 +30,8 @@ services:
       MARIADB_PASSWORD: ${DB_PASSWORD}
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
-      start_period: 10s
-      interval: 10s
+      start_period: 15s
+      interval: 15s
       timeout: 5s
       retries: 3
     restart: unless-stopped
@@ -54,7 +54,6 @@ services:
       - ./uploads:/var/www/html/wp-content/uploads:Z
     command: >
       /bin/sh -c "
-      sleep 15;
       wp core install --path=/var/www/html --url=http://localhost:8080 --title=\"Local Wordpress By Podman\" \
         --admin_user=${WP_ADMIN_USER} --admin_password=${WP_ADMIN_PASSWORD} --admin_email=${WP_ADMIN_EMAIL};
       wp plugin install woocommerce --activate;
