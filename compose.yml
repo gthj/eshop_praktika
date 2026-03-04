@@ -17,6 +17,8 @@ services:
       WORDPRESS_DB_USER: ${DB_USER}
       WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
       WORDPRESS_DB_NAME: ${DB_NAME}
+      K8S_API: "https://host.containers.internal:6443"
+      K8S_TOKEN: "${K8S_TOKEN}"
     restart: unless-stopped
 
   db:
@@ -52,12 +54,22 @@ services:
       - ./plugins:/var/www/html/wp-content/plugins:z
       - ./themes:/var/www/html/wp-content/themes:z
       - ./uploads:/var/www/html/wp-content/uploads:z
+      - ./site:/site:z
     command: >
       /bin/sh -c "
-      wp core install --path=/var/www/html --url=http://localhost:8080 --title=\"Local Wordpress By Podman\" \
+      wp core install --path=/var/www/html --url=${SITE_URL} --title=\"Local Wordpress By Podman\" \
         --admin_user=${WP_ADMIN_USER} --admin_password=${WP_ADMIN_PASSWORD} --admin_email=${WP_ADMIN_EMAIL};
       wp plugin install woocommerce --activate;
+      wp plugin install wordpress-importer --activate;
+      # propose to process the site.xml and rewrite $SITE_URL:
+      # sed -i 's/http:\/\/193.219.144.90:8080/$SITE_URL/g' site.xml
+      if [ -f /site/site.xml ]; then
+        wp import /site/site.xml --authors=create || true;
+      fi;
+      
+
       wp theme install blocksy --activate; "
+
 
 volumes:
   shop_db: {}
