@@ -57,7 +57,7 @@ services:
       - ./site:/site:z
     command: >
       /bin/sh -c "
-      sed -i "s+http://193.219.144.90:8080+$$SITE_URL+g" /site/site.xml; 
+      sed -i 's+http://193.219.144.90:8080+'\"$$SITE_URL\"'+g' /site/site.xml; 
       wp core install --path=/var/www/html --url=${SITE_URL} --title=\"Kubernetes Namespace\" \
         --admin_user=${WP_ADMIN_USER} --admin_password=${WP_ADMIN_PASSWORD} --admin_email=${WP_ADMIN_EMAIL};
       wp plugin install woocommerce --activate;
