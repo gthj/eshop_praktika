@@ -32,12 +32,28 @@ add_action('woocommerce_order_status_processing', function($order_id) {
     curl_close($ch);
 
 
-    $payload = json_encode([
+    $namespace_payload = json_encode([
         "apiVersion" => "v1",
         "kind" => "Namespace",
         "metadata" => ["name" => $ns]
     ]);
 
+    /* example payload for ResourceQuota */
+    /* https://kubernetes.io/docs/concepts/policy/resource-quotas/ */
+    $quota_payload = json_encode([
+      "apiVersion" => "v1",
+      "kind" => "ResourceQuota",
+      "metadata" => ["namespace" => $ns, "name" => $ns . "-quota" ],
+      "spec" => [ 
+        "hard" => [
+          "requests.cpu" => "1",
+          "requests.memory" => "1Gi",
+          "limits.cpu" => "2",
+          "limits.memory" => "2Gi"
+        ]                             
+      ]
+    ]);
+    
     $url = rtrim($api, '/') . "/api/v1/namespaces";
     $ch = curl_init();
 
