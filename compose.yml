@@ -61,7 +61,8 @@ services:
         --admin_user=${WP_ADMIN_USER} --admin_password=${WP_ADMIN_PASSWORD} --admin_email=${WP_ADMIN_EMAIL};
       wp plugin install woocommerce --activate;
       wp plugin install wordpress-importer --activate;
-
+      # propose to process the site.xml and rewrite $SITE_URL:
+      # sed -i 's/http:\/\/193.219.144.90:8080/$SITE_URL/g' site.xml
       if [ -f /site/site.xml ]; then
         wp import /site/site.xml --authors=create || true;
       fi;
