@@ -38,8 +38,6 @@ add_action('woocommerce_order_status_processing', function($order_id) {
         "metadata" => ["name" => $ns]
     ]);
 
-    /* example payload for ResourceQuota */
-    /* https://kubernetes.io/docs/concepts/policy/resource-quotas/ */
     $quota_payload = json_encode([
       "apiVersion" => "v1",
       "kind" => "ResourceQuota",
@@ -60,7 +58,7 @@ add_action('woocommerce_order_status_processing', function($order_id) {
     curl_setopt_array($ch, [
         CURLOPT_URL => $url,
         CURLOPT_POST => true,
-        CURLOPT_POSTFIELDS => $payload,
+        CURLOPT_POSTFIELDS => $namespace_payload,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_HTTPHEADER => [
             "Authorization: Bearer " . $token,
