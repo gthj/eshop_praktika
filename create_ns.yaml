@@ -1,0 +1,36 @@
+- user: centos
+  become: true
+  hosts: all
+  tasks:
+    
+    - name: Download k3s
+      ansible.builtin.get_url: 
+        url: https://get.k3s.io
+        dest: /tmp/installk3s.sh 
+        mode: "0755"
+    
+    - name: Install k3s
+      ansible.builtin.command: /tmp/installk3s.sh
+      args:
+        creates: /usr/local/bin/k3s
+        
+    - name: Wait for k3s installation
+      ansible.builtin.pause:
+        seconds: 30
+
+    - name: Apply serviceAccount.yaml 
+      ansible.builtin.command: kubectl apply -f /serviceaccount.yaml
+
+    - name: Apply roles.yaml
+      ansible.builtin.command: kubectl apply -f /roles.yaml
+
+    - name: Generate token
+      ansible.builtin.command: >
+        kubectl create token namespace-user
+        --namespace default
+        --duration=5000h
+      register: namespace_token
+
+    - name: Print token
+      ansible.builtin.debug: 
+        msg: "{{ namespace_token.stdout }}"
