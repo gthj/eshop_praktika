@@ -60,7 +60,7 @@ services:
       set -e;
       if [ -f /site/site.xml ]; then 
         cp /site/site.xml /tmp/site.xml; 
-        sed -i "s|http://193.219.144.54:8080|${SITE_URL}|g" /tmp/site.xml; 
+        sed -i "s|http://193.219.144.54:8081|${SITE_URL}|g" /tmp/site.xml; 
       fi;
       wp core install --path=/var/www/html --url=${SITE_URL} --title="Kubernetes Namespace" --admin_user=${WP_ADMIN_USER} --admin_password=${WP_ADMIN_PASSWORD} --admin_email=${WP_ADMIN_EMAIL};
       wp plugin activate disable_default_pages --path=/var/www/html;
