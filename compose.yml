@@ -1,12 +1,10 @@
-version: "3.8"
-
 services:
   wp:
     image: wordpress:latest
     depends_on:
       - db
     ports:
-      - "8081:80"
+      - "8080:80"
     volumes:
       - wp_files:/var/www/html
       - ./plugins:/var/www/html/wp-content/plugins:z
@@ -49,6 +47,9 @@ services:
       WORDPRESS_DB_USER: ${DB_USER}
       WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
       WORDPRESS_DB_NAME: ${DB_NAME}
+
+    env_file:
+      - .env
     volumes:
       - wp_files:/var/www/html
       - ./plugins:/var/www/html/wp-content/plugins:z
@@ -58,9 +59,9 @@ services:
     command: >
       /bin/sh -lc '
       set -e;
-      if [ -f /site/site.xml ]; then 
-        cp /site/site.xml /tmp/site.xml; 
-        sed -i "s|http://193.219.144.54:8081|${SITE_URL}|g" /tmp/site.xml; 
+      cp /site/site.xml /tmp/site.xml;
+      if [ -f /tmp/site.xml ]; then 
+        sed -i "s|http://x.x.x.x:8080|${SITE_URL}|g" /tmp/site.xml; 
       fi;
       wp core install --path=/var/www/html --url=${SITE_URL} --title="Kubernetes Namespace" --admin_user=${WP_ADMIN_USER} --admin_password=${WP_ADMIN_PASSWORD} --admin_email=${WP_ADMIN_EMAIL};
       wp plugin activate disable_default_pages --path=/var/www/html;
@@ -68,8 +69,8 @@ services:
       wp plugin install woocommerce --activate;
       wp plugin install wordpress-importer --activate;
       wp import /tmp/site.xml --authors=create;
-
       wp theme install blocksy --activate;'
+
 volumes:
   shop_db: {}
   wp_files: {}
