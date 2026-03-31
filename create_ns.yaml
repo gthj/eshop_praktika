@@ -1,6 +1,8 @@
 - user: cloud-user
   become: true
   hosts: all
+  vars:
+    dir: "path/to/files"
   environment:
     PATH: "/usr/local/bin"
   tasks:
@@ -18,10 +20,10 @@
         
 
     - name: Apply serviceAccount.yaml 
-      ansible.builtin.command: kubectl apply -f /home/cloud-user/eshop_praktika/serviceaccount.yaml
+      ansible.builtin.command: kubectl apply -f {{ dir }}/serviceaccount.yaml
 
     - name: Apply roles.yaml
-      ansible.builtin.command: kubectl apply -f /home/cloud-user/eshop_praktika/roles.yaml
+      ansible.builtin.command: kubectl apply -f {{ dir }}/roles.yaml
 
     - name: Generate token
       ansible.builtin.command: >
