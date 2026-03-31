@@ -27,15 +27,15 @@
 
 <channel>
 	<title>Kubernetes Namespace</title>
-	<link>http://193.219.144.54:8081</link>
+	<link>http://x.x.x.x:8080</link>
 	<description></description>
 	<pubDate>Mon, 16 Mar 2026 07:32:21 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://193.219.144.54:8081</wp:base_site_url>
-	<wp:base_blog_url>http://193.219.144.54:8081</wp:base_blog_url>
+	<wp:base_site_url>http://x.x.x.x:8080</wp:base_site_url>
+	<wp:base_blog_url>http://x.x.x.x:8080</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[gint89_2]]></wp:author_login><wp:author_email><![CDATA[gintare.dziovalaite@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[gint89_2]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[gint89_2]]></wp:author_login><wp:author_email><![CDATA[admin@example.com]]></wp:author_email><wp:author_display_name><![CDATA[gint89_2]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin_g_989]]></wp:author_login><wp:author_email><![CDATA[admin_admin_89kjhgd@example.com]]></wp:author_email><wp:author_display_name><![CDATA[admin_g_989]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
 		<wp:category>
@@ -168,10 +168,10 @@
 
 		<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/hello-world/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/hello-world/</link>
 		<pubDate>Mon, 16 Mar 2026 07:27:23 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/?p=1</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
@@ -211,10 +211,10 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 					</item>
 					<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/hello-world-2/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/hello-world-2/</link>
 		<pubDate>Mon, 16 Mar 2026 07:10:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/?p=1</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
@@ -254,10 +254,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 					</item>
 					<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/hello-world-2-2/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/hello-world-2-2/</link>
 		<pubDate>Mon, 16 Mar 2026 06:57:23 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/?p=1</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
@@ -297,10 +297,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 					</item>
 					<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://193.219.144.54:8081/2026/03/09/hello-world-2-2-2/</link>
+		<link>http://x.x.x.x:8080/2026/03/09/hello-world-2-2-2/</link>
 		<pubDate>Mon, 09 Mar 2026 13:09:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/?p=1</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
@@ -340,10 +340,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 					</item>
 					<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://193.219.144.54:8081/2026/03/05/hello-world-2-2-2-2/</link>
+		<link>http://x.x.x.x:8080/2026/03/05/hello-world-2-2-2-2/</link>
 		<pubDate>Thu, 05 Mar 2026 19:02:54 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/?p=1</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
@@ -383,10 +383,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 					</item>
 					<item>
 		<title><![CDATA[Shop]]></title>
-		<link>http://193.219.144.54:8081/shop/</link>
+		<link>http://x.x.x.x:8080/shop/</link>
 		<pubDate>Thu, 05 Mar 2026 19:02:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/shop/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/shop/</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -407,10 +407,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[My account]]></title>
-		<link>http://193.219.144.54:8081/my-account/</link>
+		<link>http://x.x.x.x:8080/my-account/</link>
 		<pubDate>Thu, 05 Mar 2026 19:02:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/my-account/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/my-account/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:shortcode -->[woocommerce_my_account]<!-- /wp:shortcode -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -431,10 +431,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://193.219.144.54:8081/2026/03/05/hello-world-2-2-2-2-2/</link>
+		<link>http://x.x.x.x:8080/2026/03/05/hello-world-2-2-2-2-2/</link>
 		<pubDate>Thu, 05 Mar 2026 13:36:07 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/?p=1</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
@@ -474,10 +474,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 					</item>
 					<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/hello-world-2-2-2-2-2-2/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/hello-world-2-2-2-2-2-2/</link>
 		<pubDate>Tue, 06 Jan 2026 18:20:05 +0000</pubDate>
 		<dc:creator><![CDATA[gint89_2]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//?p=1</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
@@ -517,10 +517,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 					</item>
 					<item>
 		<title><![CDATA[Montserrat]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/montserrat/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/montserrat/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/montserrat/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/montserrat/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Montserrat, sans-serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/montserrat/montserrat.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -541,10 +541,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Arvo]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/arvo/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/arvo/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/arvo/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/arvo/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Arvo, serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/arvo/arvo.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -565,10 +565,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Rubik]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/rubik/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/rubik/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/rubik/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/rubik/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Rubik, sans-serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/rubik/rubik.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -589,10 +589,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[K8s Namespace]]></title>
-		<link>http://193.219.144.54:8081/product/k8s-namespace/</link>
+		<link>http://x.x.x.x:8080/product/k8s-namespace/</link>
 		<pubDate>Tue, 06 Jan 2026 19:27:59 +0000</pubDate>
 		<dc:creator><![CDATA[gint89_2]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//?post_type=product&#038;p=26</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//?post_type=product&#038;p=26</guid>
 		<description></description>
 		<content:encoded><![CDATA[Kubernetes namespace on the OKD platform. Namespace is created with selected limits: CPU, memory.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -767,10 +767,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 							</item>
 					<item>
 		<title><![CDATA[K8s Namespace]]></title>
-		<link>http://193.219.144.54:8081/product/k8s-namespace/?attribute_cpu-limit=1&#038;attribute_memory=1Gi</link>
+		<link>http://x.x.x.x:8080/product/k8s-namespace/?attribute_cpu-limit=1&#038;attribute_memory=1Gi</link>
 		<pubDate>Tue, 06 Jan 2026 19:40:54 +0000</pubDate>
 		<dc:creator><![CDATA[gint89_2]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//?post_type=product_variation&#038;p=27</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//?post_type=product_variation&#038;p=27</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[CPU limit: 1, Memory: 1Gi]]></excerpt:encoded>
@@ -1467,10 +1467,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 							</item>
 					<item>
 		<title><![CDATA[Home]]></title>
-		<link>http://193.219.144.54:8081/</link>
+		<link>http://x.x.x.x:8080/</link>
 		<pubDate>Wed, 07 Jan 2026 13:35:20 +0000</pubDate>
 		<dc:creator><![CDATA[gint89_2]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//?page_id=37</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//?page_id=37</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:spacer {"height":"49px"} -->
 <div style="height:49px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -1486,7 +1486,7 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"palette-color-6","textColor":"black","style":{"border":{"radius":{"topLeft":"33px","topRight":"33px","bottomLeft":"33px","bottomRight":"33px"}},"spacing":{"padding":{"left":"var:preset|spacing|80","right":"var:preset|spacing|80","top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|black"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-black-color has-palette-color-6-background-color has-text-color has-background has-link-color wp-element-button" href="http://193.219.144.54:8081//shop/" style="border-top-left-radius:33px;border-top-right-radius:33px;border-bottom-left-radius:33px;border-bottom-right-radius:33px;padding-top:0;padding-right:var(--wp--preset--spacing--80);padding-bottom:0;padding-left:var(--wp--preset--spacing--80)"><strong>ORDER</strong></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-black-color has-palette-color-6-background-color has-text-color has-background has-link-color wp-element-button" href="http://x.x.x.x:8080//shop/" style="border-top-left-radius:33px;border-top-right-radius:33px;border-bottom-left-radius:33px;border-bottom-right-radius:33px;padding-top:0;padding-right:var(--wp--preset--spacing--80);padding-bottom:0;padding-left:var(--wp--preset--spacing--80)"><strong>ORDER</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -1511,10 +1511,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/38/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/38/</link>
 		<pubDate>Mon, 16 Mar 2026 07:27:37 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/16/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/16/</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1568,10 +1568,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 							</item>
 					<item>
 		<title><![CDATA[blocksy]]></title>
-		<link>http://193.219.144.54:8081/2026/01/07/blocksy/</link>
+		<link>http://x.x.x.x:8080/2026/01/07/blocksy/</link>
 		<pubDate>Wed, 07 Jan 2026 17:42:47 +0000</pubDate>
 		<dc:creator><![CDATA[gint89_2]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/07/blocksy/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/07/blocksy/</guid>
 		<description></description>
 		<content:encoded><![CDATA[
 
@@ -1641,10 +1641,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[K8s Namespace]]></title>
-		<link>http://193.219.144.54:8081/product/k8s-namespace/?attribute_cpu-limit=2&#038;attribute_memory=2Gi</link>
+		<link>http://x.x.x.x:8080/product/k8s-namespace/?attribute_cpu-limit=2&#038;attribute_memory=2Gi</link>
 		<pubDate>Mon, 09 Mar 2026 13:12:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin_g_989]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/?post_type=product_variation&#038;p=116</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/?post_type=product_variation&#038;p=116</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[CPU limit: 2, Memory: 2Gi]]></excerpt:encoded>
@@ -1753,10 +1753,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/117/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/117/</link>
 		<pubDate>Mon, 16 Mar 2026 07:27:37 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/16/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/16/</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1810,10 +1810,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/118/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/118/</link>
 		<pubDate>Mon, 16 Mar 2026 07:27:37 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/16/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/16/</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1867,10 +1867,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 							</item>
 					<item>
 		<title><![CDATA[Navigation]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/navigation/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/navigation/</link>
 		<pubDate>Mon, 16 Mar 2026 07:27:24 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/16/navigation/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/16/navigation/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1891,10 +1891,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Newsreader]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/newsreader/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/newsreader/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/newsreader/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/newsreader/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Newsreader, serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/newsreader/newsreader.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1915,10 +1915,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Cormorant]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/cormorant/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/cormorant/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/cormorant/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/cormorant/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Cormorant, serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/cormorant/cormorant.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1939,10 +1939,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Work Sans]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/work-sans/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/work-sans/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/work-sans/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/work-sans/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"\"Work Sans\", sans-serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/work-sans/work-sans.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1963,10 +1963,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Raleway]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/raleway/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/raleway/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/raleway/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/raleway/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Raleway, sans-serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/raleway/raleway.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1987,10 +1987,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
-		<link>http://193.219.144.54:8081/2026/01/07/wp-global-styles-blocksy/</link>
+		<link>http://x.x.x.x:8080/2026/01/07/wp-global-styles-blocksy/</link>
 		<pubDate>Wed, 07 Jan 2026 13:11:26 +0000</pubDate>
 		<dc:creator><![CDATA[gint89_2]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/07/wp-global-styles-blocksy/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/07/wp-global-styles-blocksy/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"version": 3, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2012,10 +2012,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 						</item>
 					<item>
 		<title><![CDATA[Navigation]]></title>
-		<link>http://193.219.144.54:8081/2026/03/05/navigation-2-2/</link>
+		<link>http://x.x.x.x:8080/2026/03/05/navigation-2-2/</link>
 		<pubDate>Thu, 05 Mar 2026 19:02:55 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/05/navigation/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/05/navigation/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2036,10 +2036,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Navigation]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/navigation-2-2-2/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/navigation-2-2-2/</link>
 		<pubDate>Tue, 06 Jan 2026 18:20:05 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/navigation/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/navigation/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2060,10 +2060,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/wp-global-styles-twentytwentyfive/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/wp-global-styles-twentytwentyfive/</link>
 		<pubDate>Tue, 06 Jan 2026 18:46:47 +0000</pubDate>
 		<dc:creator><![CDATA[gint89_2]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/wp-global-styles-twentytwentyfive/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/wp-global-styles-twentytwentyfive/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"styles":{"css":"div {\n  background-color: #86AAD1;\n}"},"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2085,10 +2085,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 						</item>
 					<item>
 		<title><![CDATA[Inter]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/inter/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/inter/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/inter/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/inter/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Inter, sans-serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/inter/inter.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2109,10 +2109,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Navigation]]></title>
-		<link>http://193.219.144.54:8081/2026/03/05/navigation-2-3/</link>
+		<link>http://x.x.x.x:8080/2026/03/05/navigation-2-3/</link>
 		<pubDate>Thu, 05 Mar 2026 13:36:08 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/05/navigation/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/05/navigation/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2133,10 +2133,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Bodoni Moda]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/bodoni-moda/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/bodoni-moda/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/bodoni-moda/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/bodoni-moda/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"\"Bodoni Moda\", serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/bodoni-moda/bodoni-moda.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2157,10 +2157,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Overpass]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/overpass/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/overpass/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/overpass/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/overpass/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Overpass, sans-serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/overpass/overpass.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2181,10 +2181,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Albert Sans]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/albert-sans/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/albert-sans/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/albert-sans/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/albert-sans/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"\"Albert Sans\", sans-serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/albert-sans/albert-sans.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2205,10 +2205,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Lora]]></title>
-		<link>http://193.219.144.54:8081/2026/01/06/lora/</link>
+		<link>http://x.x.x.x:8080/2026/01/06/lora/</link>
 		<pubDate>Tue, 06 Jan 2026 19:25:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081//2026/01/06/lora/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080//2026/01/06/lora/</guid>
 		<description></description>
 		<content:encoded><![CDATA[{"fontFamily":"Lora, serif","preview":"https://s.w.org/images/fonts/wp-6.9/previews/lora/lora.svg"}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2229,10 +2229,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Navigation]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/navigation-2/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/navigation-2/</link>
 		<pubDate>Mon, 16 Mar 2026 07:10:16 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/16/navigation/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/16/navigation/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2253,10 +2253,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Navigation]]></title>
-		<link>http://193.219.144.54:8081/2026/03/16/navigation-2-4/</link>
+		<link>http://x.x.x.x:8080/2026/03/16/navigation-2-4/</link>
 		<pubDate>Mon, 16 Mar 2026 06:57:24 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/16/navigation/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/16/navigation/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2277,10 +2277,10 @@ Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow ugc">G
 														</item>
 					<item>
 		<title><![CDATA[Navigation]]></title>
-		<link>http://193.219.144.54:8081/2026/03/09/navigation-2-4-2/</link>
+		<link>http://x.x.x.x:8080/2026/03/09/navigation-2-4-2/</link>
 		<pubDate>Mon, 09 Mar 2026 13:09:21 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://193.219.144.54:8081/2026/03/09/navigation/</guid>
+		<guid isPermaLink="false">http://x.x.x.x:8080/2026/03/09/navigation/</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
