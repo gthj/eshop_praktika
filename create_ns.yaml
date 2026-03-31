@@ -1,6 +1,8 @@
-- user: centos
+- user: cloud-user
   become: true
   hosts: all
+  environment:
+    PATH: "/usr/local/bin"
   tasks:
     
     - name: Download k3s
@@ -14,15 +16,12 @@
       args:
         creates: /usr/local/bin/k3s
         
-    - name: Wait for k3s installation
-      ansible.builtin.pause:
-        seconds: 30
 
     - name: Apply serviceAccount.yaml 
-      ansible.builtin.command: kubectl apply -f /serviceaccount.yaml
+      ansible.builtin.command: kubectl apply -f /home/cloud-user/eshop_praktika/serviceaccount.yaml
 
     - name: Apply roles.yaml
-      ansible.builtin.command: kubectl apply -f /roles.yaml
+      ansible.builtin.command: kubectl apply -f /home/cloud-user/eshop_praktika/roles.yaml
 
     - name: Generate token
       ansible.builtin.command: >
